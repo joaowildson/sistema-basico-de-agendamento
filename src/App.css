@@ -1,0 +1,39 @@
+body {
+    font-family: arial;
+    background: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #6200ea;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+.agendamento {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
